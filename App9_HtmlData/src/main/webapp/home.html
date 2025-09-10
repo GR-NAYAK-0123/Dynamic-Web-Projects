@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <center>
+     <form action="dis" method="post">
+        <table>
+           <tr>
+             <td>Name</td>
+             <td><input type="text" name="tname" value=""></td>
+           </tr>
+           <tr>
+             <td>Age</td>
+             <td><input type="text" name="tage" value=""></td>
+           </tr>
+           <tr>
+           <td>Gender</td>
+           <td><input type="radio" name="gen" value="M" checked="checked"/>Male
+               <input type="radio" name="gen" value="F"/>Female
+           </td>
+           </tr>
+           <tr>
+           <td>Address</td>
+           <td>
+             <textarea name="taddress" rows="4" cols="20">enter Address</textarea>
+           </td>
+           </tr>
+           <tr>
+           <td>MaritalStatus</td>
+           <td><input type="radio" name="ms" value="Married"/>Married
+               <input type="radio" name="ms" value="Un-Married"/>Un-Married
+           </td>
+           </tr>
+           <tr>
+           <td>Qualification</td>
+           <td>
+             <select name="qlfy">
+              <option value="B.Tech">Engineering</option>
+              <option value="MBBS">Medical</option>
+              <option value="B.A">Arts</option>
+             </select>
+           </td>
+           </tr>
+           <tr>
+           <td>Courses</td>
+           <td>
+             <select name="crs" size="3" multiple="multiple">
+              <option value="java">Java</option>
+              <option value=".net">.Net</option>
+              <option value="testing">Testing</option>
+             </select>
+           </td>
+           </tr>
+           <tr>
+           <td>Hobbies</td>
+           <td><input type="checkbox" name="hb" value="reading">Reading
+           <input type="checkbox" name="hb" value="eSports">Online-Gaming
+           <input type="checkbox" name="hb" value="traveling">Traveling
+           </td>
+           </tr>
+<!--            <tr> -->
+<!--            <td> <input type="hidden" name="msg" value="Java is Awesome"/> </td> -->
+<!--            </tr> -->
+           <tr>
+           <td colspan="2"><input type="submit" value="Submit">
+               <input type="reset" value="Cancel">
+           </td>
+           </tr>
+        </table>
+     </form>
+</body>
+</html>
